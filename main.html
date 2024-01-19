@@ -7,18 +7,29 @@
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
 	<style>
-		table {
+		table,
+		th,
+		td {
+			boder: 1px solid;
 			border-collapse: collapse;
 			width: 100%;
-			border-radius: 5px;
+				border-radius: 5px;
+			border-color: #96D4D4;
+			
 		}
+		
 		th {
 			text-align: left;
 			background-color: #215a8e;
+			padding: 5px;
+			
 			
 		}
-		tr: nth-child(even) {
-			background-color: #D6EEEE;
+		tr:nth-child(even) {
+			background-color: lightgoldenrodyellow;
+		}
+		.name {
+			padding: 5px;
 		}
 	</style>
 </head>
@@ -35,7 +46,7 @@
 		</thead>
 		<tbody>
 			<tr>
-				<td>Hackerman</td>
+				<td class="name">Hackerman</td>
 				<td>10</td>
 				<td>0</td>
 				<td>1</td>
@@ -43,7 +54,7 @@
 				<td>0</td>
 			</tr>
 			<tr>
-				<td>Cool Doggo</td>
+				<td class="name">Cool Doggo</td>
 				<td>13</td>
 				<td>4</td>
 				<td>8</td>
@@ -51,7 +62,7 @@
 				<td>1</td>
 			</tr>
 			<tr>
-				<td>Andrews</td>
+				<td class="name">Andrews</td>
 				<td>19</td>
 				<td>2</td>
 				<td>10</td>
@@ -59,7 +70,7 @@
 				<td>0</td>
 			</tr>
 			<tr>
-				<td>Strawberry</td>
+				<td class="name">Strawberry</td>
 				<td>2</td>
 				<td>9</td>
 				<td>3</td>
